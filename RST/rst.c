@@ -13,6 +13,13 @@
 #include <netinet/if_ether.h> //MacOS
 #include <unistd.h>  
 
+void handlePacket(char *buf, int s){
+    struct iphdr *ip = (struct iphdr*)(buf + sizeof(struct ethhdr));
+    if(ip->protocol == 6){
+        
+    }
+}
+
 int main(){
     struct sockaddr addr;
     int sock, n;
