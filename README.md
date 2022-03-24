@@ -1,6 +1,7 @@
 # Project 3 CS 5153
 
 ### The VMs were not able to be ran, due to computing power restrictions. Exploits developed using cheap vps and local box.
+### So values/addrs will differ from those in the VM env
 
 - For Task 1: please use netwox to perform SYN flooding on a telnet connection from a user to a server,
 where SYN cookies is off on the server; You do not need to test the case when SYN cookies is on.
